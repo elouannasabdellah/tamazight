@@ -1,0 +1,436 @@
+            nav {
+                background: #00f;
+                width: 100%;
+                height: 55px;
+                font-family: monospace;
+                font-size: 18px;
+                line-height: 40px;
+                color: #fff;
+                text-decoration: none;
+                word-spacing: 55px;
+            }
+            
+            .acceuil {
+                padding-left: 10px;
+            }
+            
+            .acceuil:hover,
+            .lien:hover {
+                color: #FF4500;
+                font-size: 22px;
+                font-style: italic;
+                height: 250px;
+                background: #000;
+                padding: 22px;
+                text-decoration: underline;
+            }
+            
+            a {
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            body {
+                margin: 0px;
+                background: #00FA9A;
+            }
+            
+            .rech {
+                color: #fff;
+                float: right;
+                font-size: 18px;
+                margin-top: -40px;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+            
+            .image {
+                background-image: url("pexels-photo-1831234.jpeg");
+                width: 100%;
+                height: 2000px;
+            }
+            
+            .image h1 {
+                margin: 0px;
+                text-align: center;
+                color: red;
+                background: yellow;
+                width: 320px;
+                margin-left: 24%;
+                border-radius: 10px;
+            }
+            
+            .image p {
+                color: #000;
+                font-size: 16px;
+                text-indent: 20px;
+                padding-left: 10px;
+                font-family: Arial Black;
+            }
+            
+            abbr {
+                cursor: pointer;
+            }
+            
+            ul {
+                font-size: 20px;
+                list-style: square;
+            }
+            
+            .amazigh {
+                float: right;
+                margin-top: 30px;
+                width: 300px;
+                height: 250px;
+            }
+            
+            #bl {
+                color: #00f;
+                font-weight: bold;
+            }
+            
+            #vr {
+                color: #080;
+                font-weight: bold;
+            }
+            
+            #jn {
+                color: sandybrown;
+                font-weight: bold;
+            }
+            
+            #Rg {
+                color: red;
+                font-weight: bold;
+            }
+            
+            #bl,
+            #vr,
+            #jn,
+            #Rg {
+                text-transform: capitalize;
+                text-decoration: underline;
+            }
+            
+            video {
+                align-items: center;
+            }
+            
+            .image .date {
+                border: 5px solid aqua;
+                border-radius: 20px;
+                width: 80%;
+                margin: auto;
+                font-size: 20px;
+                padding: 10px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+            }
+            
+            .date h3 {
+                text-align: center;
+                font-style: italic;
+                text-shadow: 2px 2px violet;
+            }
+            
+            .cliquer:hover {
+                font-size: 26px;
+                font-style: italic;
+            }
+            /*********************************dyaaal ljdwaaaal *****/
+            
+            #h {
+                width: 100%;
+                background-color: orange;
+                border: 10px solid #000;
+                text-align: center;
+                -moz-column-count: 3;
+                color: #fff;
+                font-size: 23px;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .legnd {
+                padding: 10px;
+                color: #fff;
+                background: orange;
+            }
+            
+            .border {
+                border: 5px solid #00f;
+                width: 90%;
+                border-radius: 15px;
+                margin: auto;
+                margin-top: -1050px;
+                height: 2000px;
+            }
+            /*  icone  *****/
+            
+            .icone img[alt="home"],
+            [alt="culture"],
+            [alt="tele"],
+            [alt="festival"],
+            [alt="produit"] {
+                width: 40px;
+            }
+            /*.limte {
+            margin-top: -18px;
+        }
+        **/
+            
+            .icone {
+                width: 60px;
+                line-height: 50px;
+                padding-left: 2px;
+                text-align: center;
+                color: #fff;
+                margin-top: 750px;
+                /*  position: fixed;*/
+                transform: translatey(-50%);
+                top: 45%;
+            }
+            /*** page festiivale***/
+            /*.es {
+    line-height: 50px;
+    padding: 5px;
+}
+*/
+            /*a .es:hover {
+    background: lime;
+}
+*/
+            /**   hadaa khdaaam ms 3laa lolxii**/
+            
+            #body {
+                background: olive;
+            }
+            
+            .Acc:hover:after {
+                content: "Accceuil";
+                font-size: 19px;
+            }
+            
+            .cult:hover:after {
+                content: "Culture";
+                font-size: 19px;
+            }
+            
+            .fest:hover:after {
+                content: "Festival";
+                font-size: 19px;
+            }
+            
+            .prod:hover:after {
+                content: "Produit";
+                font-size: 19px;
+            }
+            
+            .tele:hover:after {
+                content: "Contact";
+                font-size: 19px;
+            }
+            
+            .green {
+                color: green;
+            }
+            
+            .bdwid {
+                width: 100%;
+            }
+            /******* page de culture ***/
+            
+            .tagla,
+            .tagla2 {
+                float: right;
+                margin-right: 5px;
+                margin-top: 10px;
+            }
+            
+            .tagla2 {
+                clear: right;
+                width: 270px;
+                height: 200px;
+            }
+            
+            .page p {
+                font-size: 18px;
+                font-family: arial;
+                font-weight: bold;
+                text-indent: 19px;
+                margin-left: 10px;
+                color: #fff;
+            }
+            
+            .page p::first-letter {
+                font-size: 30px;
+            }
+            
+            .page h1 {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 5px;
+                fontstyle: italic;
+                background: mediumturquoise;
+                width: 200px;
+                margin: auto;
+            }
+            
+            .mgouna h3 {
+                text-align: center;
+                font-size: 29px;
+            }
+            
+            .mgouna p {
+                margin-left: 10px;
+                font-size: 20px;
+                width: 92%;
+                margin: auto;
+                background: darksalmon;
+                padding: 10px;
+            }
+            
+            .vdmg {
+                float: right;
+            }
+            
+            .Mgon {
+                height: 300px;
+            }
+            
+            #h #hist {
+                color: #000;
+            }
+            
+            .pys {
+                color: #000;
+            }
+            /* personnaliter amazigh ****/
+            
+            .border .person {
+                float: left;
+                margin-left: 5%;
+            }
+            
+            .image h3 {
+                text-align: center;
+                font-size: 30px;
+                text-decoration: underline;
+                text-shadow: 2px 2px red;
+            }
+            
+            .image span {
+                font-size: 20px;
+                margin-left: 20px;
+                font-style: italic;
+                font-weight: bold;
+            }
+            
+            .person .dihya {
+                width: 300px;
+            }
+            /* farnass */
+            
+            .person .farnas {
+                width: 300px;
+                height: 170 px;
+            }
+            
+            .person .bfr {
+                height: 235px;
+            }
+            
+            .person p {
+                width: 288px;
+                border: 2px solid #000;
+                background: yellowgreen;
+                margin-top: -2.5px;
+            }
+            /* batota **/
+            
+            .person .batota {
+                width: 300px;
+                height: 168px;
+            }
+            /* footer de la page **/
+            
+            .fot {
+                background: #333;
+                width: 100%;
+                height: 200px;
+                color: #fff;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+            .fot .abd {
+                padding-top: 40px;
+                margin-left: 8px;
+            }
+            
+            .fot .icn {
+                width: 30px;
+                margin-left: 18px;
+                padding: -2px;
+                padding-top: 10px;
+            }
+            
+            .fot ul li {
+                display: inline;
+            }
+            
+            .fot .moh {
+                float: right;
+                margin-top: -98px;
+                padding-right: 20px;
+            }
+            
+            .fot .pc {
+                margin-right: 80px;
+            }
+            
+            .fot .cni {
+                width: 30px;
+                float: right;
+                margin-top: -49px;
+                padding: 10px;
+            }
+            /**foter culture***/
+            
+            .fotcul {
+                background: #333;
+                height: 200px;
+            }
+            /* foter de festival**/
+            
+            .fotcul a {
+                padding-left: 180px;
+                margin-top: 50px;
+                color: blue;
+                font-size: 20px;
+            }
+            
+            .fotcul a:hover {
+                text-decoration: underline;
+                color: red;
+                font-style: italic;
+            }
+            /*page produit/***/
+            
+            .non {
+                border: 5px solid rgb(211, 16, 201);
+                background-color: coral;
+                width: 100%;
+                height: 205%;
+            }
+            
+            .k {
+                margin: 5px;
+                border: 4px solid #ccc;
+                float: left;
+                width: 317px;
+                height: 390px;
+                text-align: center;
+                background: greenyellow;
+            }
+            /* fini de produit****/

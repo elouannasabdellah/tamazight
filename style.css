@@ -1,0 +1,272 @@
+nav {
+    background: #00f;
+    width: 100%;
+    height: 60px;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 55px;
+}
+
+.acceuil {
+    padding-left: 10px;
+}
+
+.acceuil:hover,
+.lien:hover {
+    color: #FF4500;
+    font-size: 22px;
+    font-style: italic;
+    height: 250px;
+    background: #000;
+    padding: 22px;
+    text-decoration: underline;
+}
+
+a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rech {
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#h {
+    width: 100%;
+    background-color: orange;
+    border: 10px solid #000;
+    text-align: center;
+    -moz-column-count: 3;
+    color: #fff;
+    font-size: 23px;
+    margin: auto;
+}
+
+#rotate {
+    width: 30px;
+    margin: 5px;
+}
+
+#rotate:hover {
+    -moz-transform: rotate(360deg);
+}
+
+#t {
+    border: 2px solid tomato;
+    background: violet;
+    width: 100px;
+    height: 200px;
+}
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#s {
+    background-image: url('sss.jpg');
+    width: 100%;
+    height: 700px;
+    color: orange;
+    background-size: cover;
+}
+
+.foter {
+    clear: right;
+    border: 8px dotted aqua;
+    width: 93%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+    background: #800000;
+}
+
+.femme {
+    color: darkmagenta;
+    padding: 9px;
+    text-shadow: 3px 2px red;
+}
+
+#MC {
+    color: #000;
+}
+
+.tagla {
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    margin-left: 5px;
+    float: right;
+}
+
+
+/* page  produit ***/
+
+.non {
+    border: 5px solid rgb(211, 16, 201);
+    background-color: coral;
+    width: 100%;
+    height: 205%;
+}
+
+.k {
+    margin: 5px;
+    border: 4px solid #ccc;
+    float: left;
+    width: 317px;
+    height: 390px;
+    text-align: center;
+    background: greenyellow;
+}
+
+
+/*   finis de produit****/
+
+
+/*  muyenne bien excelen**/
+
+.fini {
+    margin-left: 400px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fini input {
+    cursor: pointer;
+}
+
+.fini .submit {
+    font-size: 17px;
+    background: deeppink;
+    margin-left: 170px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/*
+#h .inayr {
+    background: aqua;
+    width: 18%;
+    color: darkred;
+    margin-left: 200px;
+}
+
+#h .peuple {
+    padding: 10px;
+    margin: 1px;
+    text-indent: 28px;
+}
+
+#h .peuple:first-letter {
+    font-size: 50px;
+    color: #000;
+}
+*/
+
+.mgona {
+    background: #A9A9A9;
+    width: 92%;
+    margin: auto;
+    padding: 10px;
+    color: #000;
+    border-radius: 28px;
+}
+
+#h .mvt {
+    border: 2px dashed DarkRed;
+    width: 95%;
+    margin: auto;
+    padding: 18px;
+    color: #0000CD;
+}
+
+fieldset img .fac {
+    padding-top: 30px;
+}
+
+.mark:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 27px;
+}
+
+.hist {
+    background: #A9A9A9;
+    width: 90%;
+    margin: auto;
+    border-radius: 28px;
+    color: #000;
+    padding: 10px;
+}
+
+.ahwax {
+    width: 450px;
+    border-radius: 50%;
+    height: 440px;
+}
+
+.ahwax2 {
+    width: 440px;
+    height: 442px;
+    border-radius: 50%;
+}
+
+
+/***foter ***/
+
+.fotcul {
+    background: #333;
+    height: 120px;
+    width: 100%;
+}
+
+.fotcul a {
+    padding-left: 180px;
+    margin-top: 50px;
+    color: blue;
+    font-size: 20px;
+}
+
+.fotcul a:hover {
+    text-decoration: underline;
+    color: red;
+    font-style: italic;
+}
