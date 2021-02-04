@@ -163,7 +163,7 @@
                 width: 90%;
                 border-radius: 15px;
                 margin: auto;
-                margin-top: -1050px;
+                /*margin-top: -1050px;*/
                 height: 2000px;
             }
             /*  icone  *****/
@@ -186,8 +186,8 @@
                 padding-left: 2px;
                 text-align: center;
                 color: #fff;
-                margin-top: 750px;
-                /*  position: fixed;*/
+                /*margin-top: 750px;*/
+                position: fixed;
                 transform: translatey(-50%);
                 top: 45%;
             }
